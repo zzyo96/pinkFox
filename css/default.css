@@ -37,10 +37,10 @@ body{
 }
 .actions>button{
   margin: 10px;
-  background: #FF6666；
+  background: #FF6666;
   padding: 8px 10px;
   border: none;
-  border-radius：8px 8px;
+  border-radius: 8px 8px;
 }
 .actions>button.active{
   box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
