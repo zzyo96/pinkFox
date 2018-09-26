@@ -15,6 +15,9 @@
       case 'fast':
         duration = 10
         break
+      case 'again':
+        window.location.reload()
+        break
     }
   })
   function writeCode(prefix, code, fn){
