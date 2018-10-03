@@ -51,6 +51,9 @@ html{
   height: 275px;
   position: relative;
 }
+/*
+*开始画狐狸的小脑袋
+*/
 .fox .head{
   width: 184px;
   height: 184px;
@@ -79,6 +82,9 @@ html{
 .fox .head::after{
   right: -92px;
 }
+/*
+*画狐狸的眼睛
+*/
 .fox .head .eye{
   width: 18px;
   height: 9px;
@@ -97,6 +103,9 @@ html{
   right: 37px;
   transform: rotate(45deg)
 }
+/*
+*开始画两只耳朵
+*/
 .fox .ear{
   width: 93px;
   height: 93px;
@@ -113,6 +122,9 @@ html{
   left:31px;
   border-radius:0 93px 0 0;
 }
+/*
+*画狐狸的鼻子
+*/
 .fox .nose{
   width: 27px;
   height: 27px;
@@ -123,6 +135,9 @@ html{
   top: 169px;
   right: 78px;
 }
+/*
+*开始画狐狸的身体
+*/
 .fox .body{
   width: 107px;
   height: 214px;
@@ -133,6 +148,9 @@ html{
   bottom: 0px;
   right: 0;
 }
+/*
+*接下来画尾巴
+*/
 .fox .tail{
   width: 215px;
   height: 107px;
@@ -155,6 +173,9 @@ html{
   top: -30px;
   left: -30px;
 }
+/*
+*一只狐狸画好啦
+*/
 `
   writeCode('',code)
 }.call()
